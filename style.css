@@ -1,0 +1,155 @@
+body {
+  font-family: "Noto Sans";
+  background-color: #F5F5F5;
+}
+
+td {
+  border: 2px solid #EFEFEF;
+  font-size: 14px;
+  padding: 0px;
+  text-align: center;
+  padding: 10px 0px;
+  background-color: white;
+}
+
+div.accordion {
+  cursor: pointer;
+  font-weight: bold;
+}
+
+div.main-container {
+  max-width: 800px;
+  min-width: 350px;
+  padding-top: 20px;
+  margin: 0px auto;
+}
+
+div.shadow-box {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+div.tab-button {
+  background-color:white;
+  border: 2px solid #EFEFEF;
+  margin: -2px;
+  font-size: 30px;
+  cursor: pointer;
+  padding: 10px 10px 14px 30px;
+  text-align: left;
+  color: black;
+}
+
+tr.banner-row td {
+  padding: 0px;
+  background-color: transparent;
+  border: 2px solid transparent;
+}
+
+#banner {
+  font-size: 12px;
+  background-color: #A7CA1A;
+  color: white;
+  font-family: 'Montserrat';
+  font-weight: bold;
+}
+
+p.package-name {
+  color: black;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 8px 0px;
+}
+
+p.package-price {
+  color: #636363;
+  font-family: Montserrat;
+  font-size: 36px;
+  margin: 8px 0px;
+}
+
+p.package-billing {
+  color: #969696;
+  font-size: 12px;
+  margin: 5px 0px;
+}
+
+button.buy { 
+  border: none;
+  color: white;
+  text-align: center;
+  font-size: 18px;
+  padding: 5px;
+  border-radius: 4px;
+  width: 95%;
+  max-width: 150px;
+  min-width: 100px;
+  margin: 14px 0px 10px 0px;
+  font-family: 'Montserrat';
+  font-weight: bold;
+}
+
+td.indicator {
+  width: 30px;
+  font-size: 14px;
+  border-right: none;
+}
+
+td.services {
+  width: 164px;
+  text-align: left;
+  border-left: none;
+}
+
+div.accordion td {
+  background-color: #F7F7F7;
+  border: none
+}
+
+div.accordion table {
+  border: 2px solid #EFEFEF;
+}
+
+.fa-check, .fa-question-circle {
+  color: #A7CA1A;
+}
+
+div.panel {
+  color: #777777;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+table {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: -2px;
+}
+
+div.active {
+  background-color: #222222;
+  color: white;
+}
+
+#tabs {
+  display: none;
+}
+
+button.buy-basic {
+  background-color: #7D6E99;
+}
+
+button.buy-business {
+  background-color: #A7CA1A;
+}
+
+button.buy-pro {
+  background-color: #4C7DA5;
+}
+
+#tab-cell {
+  width: 194px;
+  padding: 0px;
+}
