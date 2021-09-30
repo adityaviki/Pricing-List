@@ -1,0 +1,169 @@
+body {
+  font-family: "Noto Sans";
+  background-color: #F5F5F5;
+}
+
+td {
+  border: 2px solid #EFEFEF;
+  font-size: 14px;
+  padding: 0px;
+  text-align: center;
+  padding: 10px 0px;
+  background-color: white;
+}
+
+div.accordion {
+  cursor: pointer;
+  font-weight: bold;
+}
+
+div.main-container {
+  max-width: 800px;
+  padding-top: 20px;
+  margin: 0px auto;
+}
+
+div.shadow-box {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+div.tab-button {
+  background-color:white;
+  border: 2px solid #EFEFEF;
+  margin: -2px;
+  font-size: 30px;
+  cursor: pointer;
+  padding: 14px;
+  text-align: center;
+  color: black;
+}
+
+tr.banner-row td {
+  padding: 0px;
+  border: 2px solid transparent;
+  font-size: 12px;
+  background-color: transparent;
+}
+
+tr.banner-row td.services {
+  padding-left: 10px;
+}
+
+#banner {
+  font-size: 12px;
+  background-color: #A7CA1A;
+  color: white;
+  font-family: 'Montserrat';
+  font-weight: bold;
+}
+
+p.package-name {
+  color: black;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 8px 0px;
+}
+
+p.package-price {
+  color: #636363;
+  font-family: Montserrat;
+  font-size: 36px;
+  margin: 8px 0px;
+}
+
+p.package-billing {
+  color: #969696;
+  font-size: 12px;
+  margin: 5px 0px;
+}
+
+button.buy { 
+  border: none;
+  color: white;
+  text-align: center;
+  font-size: 18px;
+  padding: 5px;
+  border-radius: 4px;
+  width: 95%;
+  max-width: 150px;
+  margin: 14px 0px 10px 0px;
+  font-family: 'Montserrat';
+  font-weight: bold;
+}
+
+
+td.indicator {
+  width: 30px;
+  font-size: 20px;
+  padding: 0px;
+  text-align: right;
+  color: #777777;
+  border-right: 2px solid transparent;
+}
+
+td.services {
+  max-width: 170px;
+  padding-left: 10px;
+  text-align: left;
+  border-left: 2px solid transparent;
+}
+
+div.accordion td {
+  background-color: #F7F7F7;
+  border-left: 2px solid transparent;
+  border-right: 2px solid transparent;
+}
+
+div.accordion td.indicator {
+  border-left-color: #EFEFEF;
+}
+
+div.accordion td.pro {
+  border-right-color: #EFEFEF;
+}
+
+.fa-check, .fa-question-circle {
+  color: #A7CA1A;
+}
+
+div.panel {
+  color: #777777;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+table {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: -2px;
+}
+
+div.active {
+  background-color: #222222;
+  color: white;
+}
+
+#tabs {
+  display: none;
+  margin-left: -32px;
+}
+
+button.buy-basic {
+  background-color: #7D6E99;
+}
+
+button.buy-business {
+  background-color: #A7CA1A;
+}
+
+button.buy-pro {
+  background-color: #4C7DA5;
+}
+
+#tab-cell {
+  max-width: 190px;
+  padding: 0px;
+}
